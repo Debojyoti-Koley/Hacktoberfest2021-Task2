@@ -1,8 +1,70 @@
+*{
+    /* margin: 0;
+    padding: 0; */
+    background-color: rgb(185, 230, 205);
+}
 h1{
     text-align: center;
-    color:red;
+    color:rgb(205, 58, 241);
 }
 
 p{
-    font-size: 10px;
+    font-size: 15px;
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+
+
+img{
+    width: 15%;
+    height: 15%;
+    margin-left: 43%;
+    margin-top: 5%;
+    border-radius: 50%;
+}
+
+.main{
+    margin: 1%;
+}
+
+.name{
+    display: block;
+    margin-bottom: .3%;
+}
+
+.age{
+    display: block;
+    margin-bottom: .3%;
+}
+
+.country{
+    display: block;
+}
+
+.name_color{
+    color: blue;
+    display: inline-block;
+}
+
+.country_font{
+    font-style: italic;
+}
+
+.country_color{
+    display: inline-block;
+    /* font: italic; */
+}
+
+#orange{
+    color: orange;
+    font-style: italic;
+}
+#white{
+    color: white;
+    font-style: italic;
+}
+#green{
+    color: green;
+    font-style: italic;
 }
